@@ -49,7 +49,7 @@ A pipeline is a sequence of one or more commands separated by one of the control
 .br
 - The $$ is the process id of the shell in which your script is running.
 .br
-- handle variable replacement
+- handle variable replacement :
 .br
 - Variable substitution enables the shell programmer to manipulate the value of a variable based on its state.
 .SH EXIT STATUS
