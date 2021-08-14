@@ -53,13 +53,13 @@ A pipeline is a sequence of one or more commands separated by one of the control
 .br
 - Variable substitution enables the shell programmer to manipulate the value of a variable based on its state.
 .SH EXIT STATUS
-The exit value depends on how a function has terminated. Every error is identified by a certain value. On success it will always return 0.
+- The exit value depends on how a function has terminated. Every error is identified by a certain value. On success it will always return 0.
 .SH RETURN VALUE
-Return 0 on success, otherwise it will return the exit value.
+- Return 0 on success, otherwise it will return the exit value.
 .SH ENVIRONMENT
-A shell maintains an environment that includes a set of variables defined by the login program, the system initialization file, and the user initialization files.
+- A shell maintains an environment that includes a set of variables defined by the login program, the system initialization file, and the user initialization files.
 .SH BUGS
-There is no known bugs at the moment.
+- There is no known bugs at the moment.
 .SH AUTHORS
 Amemri Mouadh <https://github.com/mouadhx04>
 Ben Ali Jassem <https://github.com/jassemb>
