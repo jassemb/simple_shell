@@ -59,8 +59,8 @@ Git clone the repository:
 https://github.com/jassemb/simple_shell
 ```
 ### Authors :writing_hand:
-< https://github.com/jassemb >
-< https://github.com/mouadhx04 >
+https://github.com/jassemb
+https://github.com/mouadhx04
 
 
 
