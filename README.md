@@ -4,23 +4,23 @@ A simple UNIX command interpreter written as part of the low-level programming a
 ## Description :speech_balloon:
 [pip]hsh is a simple UNIX command language interpreter that reads commands from either a file or standard input and executes them.
 ##Requeriments :eye_speech_bubble:
-*Allowed editors: vi, vim, emacs.
-*Programs and functions will be compiled with gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
-*All files should end with a new line
-*Code should use the Betty style. it will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style\ .pl) and betty-doc.pl
-*No more than 5 functions per file
-*All your header files should be include guarded
-*Use system calls only when you need to
-*Authorized functions and system calls:
-	*access (man 2 access)
-	*chdir (man 2 chdir)
-	*close (man 2 close)
-	*closedir (man 3 closedir)
-	*execve (man 2 execve)
-	*exit (man 3 exit)
-	*fork (man 2 fork)
-	*free (man 3 free)
-	*stat (__xstat)(man 2 stat)
+*Allowed editors: vi, vim, emacs.<br/>
+*Programs and functions will be compiled with gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic<br/>
+*All files should end with a new line<br/>
+*Code should use the Betty style. it will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style\ .pl) and betty-doc.pl<br/>
+*No more than 5 functions per file<br/>
+*All your header files should be include guarded<br/>
+*Use system calls only when you need to <br/>
+*Authorized functions and system calls: <br/>
+	*access (man 2 access) <br/>
+	*chdir (man 2 chdir) <br/>
+	*close (man 2 close) <br/>
+	*closedir (man 3 closedir) <br/>
+	*execve (man 2 execve)<br/>
+	*exit (man 3 exit) <br/>
+	*fork (man 2 fork) <br/>
+	*free (man 3 free) <br/>
+	*stat (__xstat)(man 2 stat)<br/>
 	*lstat (__lxstat)(man 2 lstat)
 	*fstat (__fxstat)(man 2 fstat```)
 	*getcwd (man 3 getcwd)
