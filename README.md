@@ -2,8 +2,8 @@
 A simple UNIX command interpreter written as part of the low-level programming and algorithm track at Holberton School.
 
 ## Description :speech_balloon:
-[pip]hsh is a simple UNIX command language interpreter that reads commands from either a file or standard input and executes them.
-##Requeriments :eye_speech_bubble:
+[pip]hsh is a simple UNIX command language interpreter that reads commands from either a file or standard input and executes them.<br/>
+## Requeriments :eye_speech_bubble:
 * Allowed editors: vi, vim, emacs.<br/>
 * Programs and functions will be compiled with gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic<br/>
 * All files should end with a new line<br/>
