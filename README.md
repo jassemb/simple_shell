@@ -43,7 +43,7 @@ A simple UNIX command interpreter written as part of the low-level programming a
 	* isatty (man 3 isatty) <br/>
 	* fflush (man 3 fflush)* <br/>
 ## Invocation :see_no_evil: :hear_no_evil: :speak_no_evil:
-#Usage:
+# Usage:
 To invoke, compile all .c files in the repository and run the resulting executable:
 ```bash
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
@@ -53,13 +53,14 @@ To exit the program,type:
 ($) exit
 
 This **hsh** supports most shell commands, such as cat, pwd, ls -la and more.
-##Quick start :bicyclist:
+## Quick start :bicyclist:
 Git clone the repository:
 ```bash
 https://github.com/jassemb/simple_shell
 ```
-###Authors :writing_hand:
-
+### Authors :writing_hand:
+< https://github.com/jassemb >
+< https://github.com/mouadhx04 >
 
 
 
