@@ -8,7 +8,7 @@
  */
 char **_which(char *foundpath)
 {
-	int size = TOK_BUFSIZE, i = 0;
+	int size = t_BUFSIZE, i = 0;
 	char *copy_path = NULL, *tokens = NULL, *sparse = ":=";
 	char **dir = _calloc(sizeof(char *), size);
 
@@ -24,8 +24,8 @@ char **_which(char *foundpath)
 		return (NULL);
 	}
 
-	copy_path = _strdup(foundpath); /*copiar el string --> palabra PATH*/
-	tokens = strtok(copy_path, sparse); /*separar el string por un separador*/
+	copy_path = _strdup(foundpath);
+	tokens = strtok(copy_path, sparse);
 	while (tokens != NULL)
 	{
 		dir[i] = tokens;
