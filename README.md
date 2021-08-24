@@ -35,7 +35,7 @@ A simple UNIX command interpreter written as part of the low-level programming a
 	* signal (man 2 signal) <br/>
 	* strtok (man 3 strtok) <br/>
 	* wait (man 2 wait) <br/>
-	* waitpid (man 2 waitpid) <br/> <br/>
+	* waitpid (man 2 waitpid) <br/>
 	* wait3 (man 2 wait3) <br/>
 	* wait4 (man 2 wait4) <br/>
 	* write (man 2 write) <br/>
