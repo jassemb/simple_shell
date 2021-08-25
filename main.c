@@ -25,7 +25,7 @@ int main(void)
 		if ((_strcmp(str[0], "env") == 0))
 		{
 			free_array(str);
-			p_env();
+			print_env();
 			continue;
 		}
 		if ((_strcmp(str[0], "exit") == 0))
