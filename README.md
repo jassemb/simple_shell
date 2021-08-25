@@ -60,7 +60,7 @@ This **hsh** supports most shell commands, such as cat, pwd, ls -la and more.
 
 ```bash
 > pwd
-/simple_shell
+/root/simple_shell
 ```
 ### Ex 2:
 
