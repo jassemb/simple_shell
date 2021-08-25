@@ -72,15 +72,15 @@ char **sparse_str(char *line, char **env)
 		token = strtok(NULL, t_special_char);
 	}
 	if (tokens[0] == NULL)
-		tokens[posicion] = "\n"; 
+		tokens[posicion] = "\n";
 	if ((_strcmp(tokens[0], "exit") == 0) && tokens[1] == NULL)
 	{
-		free(line); 
+		free(line);
 		free(tokens);
 		exit(0);
 	}
 	if ((_strcmp(tokens[0], "env") == 0) && tokens[1] == NULL)
-		func_printenv(env);      
+		func_printenv(env);
 
 	return (tokens);
 }
