@@ -1,10 +1,10 @@
 #include "simple_shell.h"
+
 /**
  * _getenv - function to get enviroment variable by name
  * @name: name of the variable
  * Return: Return a pointer
  */
-
 char *_getenv(char *name)
 {
 	char **env, *c, *_name;
@@ -24,9 +24,9 @@ char *_getenv(char *name)
 	return (NULL);
 }
 /**
- **_calloc - a function that allocates memory for an array, using malloc.
- *@size : int
- *Return: pointer to an array
+ * _calloc - a function that allocates memory for an array, using malloc.
+ * @size : int
+ * Return: pointer to an array
  */
 void *_calloc(unsigned int size)
 {
@@ -88,47 +88,45 @@ char *_itoa(int num, char *str)
  */
 void rev_string(char *s)
 {
-char h;
-int i, j;
-int c = 0;
-for (i = 0; s[i] != '\0'; i++)
-{
-c++;
-}
-for (j = 0 ; j < c / 2 ; j++)
-{
-h = s[c - j - 1];
-s[c - j - 1] = s[j];
-s[j] = h;
-}
+	char h;
+	int i, j;
+	int c = 0;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		c++;
+	}
+	for (j = 0 ; j < c / 2 ; j++)
+	{
+		h = s[c - j - 1];
+		s[c - j - 1] = s[j];
+		s[j] = h;
+	}
 }
 /**
- *_atoi - convert into integer
- *@s : string
- *Return: 0
+ * _atoi - convert into integer
+ * @s : string
+ * Return: 0
  */
 int _atoi(char *s)
 {
-int i, sign = 1, num = 0, res;
+	int i, sign = 1, num = 0, res;
 
-
-for (i = 0; s[i] != '\0';)
-{
-if (s[i] == '-')
-{
-sign = sign * (-1);
-i++;
-}
-
-else if ((s[i] >= '0') && (s[i] <= '9'))
-{
-num = num * 10 + (s[i] - '0');
-i++;
-}
-else
-i++;
-}
-res = (sign *num);
-
-return (res);
+	for (i = 0; s[i] != '\0';)
+	{
+		if (s[i] == '-')
+		{
+			sign = sign * (-1);
+			i++;
+		}
+		else if ((s[i] >= '0') && (s[i] <= '9'))
+		{
+			num = num * 10 + (s[i] - '0');
+			i++;
+		}
+		else
+			i++;
+	}
+	res = (sign(*num));
+	return (res);
 }
