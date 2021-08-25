@@ -56,13 +56,13 @@ This **hsh** supports most shell commands, such as cat, pwd, ls -la and more.
 
 ## Examples :ok_hand:
 
-# Ex 1:
+### Ex 1:
 
 ```bash
 > pwd
 /simple_shell
 ```
-# Ex 2:
+### Ex 2:
 
 ```bash
 > ls -l
