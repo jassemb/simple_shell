@@ -1,6 +1,7 @@
 #include "simple_shell.h"
+
 /**
-*print_env - print the envirment variables
+* print_env - print the envirment variables
 **/
 void print_env(void)
 {
@@ -16,10 +17,10 @@ void print_env(void)
 }
 
 /**
-**_strcat - concatenate 2 strings
-*@dest : string
-*@src : string
-*Return: 0
+* _strcat - concatenate 2 strings
+* @dest : string
+* @src : string
+* Return: 0
 */
 char *_strcat(char *dest, char *src)
 {
@@ -29,15 +30,14 @@ char *_strcat(char *dest, char *src)
 	;
 
 	for (j = 0; src[j] != '\0'; j++)
-	dest[i + j] = src[j];
-
+		dest[i + j] = src[j];
 	dest[i + j] = '\0';
 	return (dest);
 }
 /**
-*int_len - length of a number
-*@n: the number
-*Return: The length
+* int_len - length of a number
+* @n: the number
+* Return: The length
 */
 int int_len(int n)
 {
@@ -58,11 +58,11 @@ void free_array(char **str)
 {
 	int i;
 
-for (i = 0; str[i] != NULL; i++)
-{
-free(str[i]);
-}
-free(str);
+	for (i = 0; str[i] != NULL; i++)
+	{
+		free(str[i]);
+	}
+	free(str);
 }
 /**
  * prompt - display prompt
