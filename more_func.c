@@ -1,8 +1,8 @@
 #include "simple_shell.h"
 /**
-*p_env - print the envirment variables
+*print_env - print the envirment variables
 **/
-void p_env(void)
+void print_env(void)
 {
 	size_t i;
 	int len;
@@ -69,6 +69,6 @@ free(str);
  */
 void prompt(void)
 {
-	_putchar('$');
+	_putchar('>');
 	_putchar(' ');
 }
