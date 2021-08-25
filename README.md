@@ -94,7 +94,7 @@ https://github.com/jassemb<br/>
 https://github.com/mouadhx04<br/>
 
 ### License
-This project is licensed under the holberton school License.
+This project is licensed under the Holberton school License.
 
 
 
