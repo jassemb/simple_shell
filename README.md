@@ -54,6 +54,34 @@ To exit the program,type:
 
 This **hsh** supports most shell commands, such as cat, pwd, ls -la and more.
 
+## Examples :ok_hand:
+
+#Ex 1:
+
+```bash
+> pwd
+/simple_shell
+```
+#Ex 2:
+
+```bash
+> ls -l
+total 72
+-rw-r--r-- 1 root root  1872 Aug 25 07:04 adv_func.c
+-rw-r--r-- 1 root root  1108 Aug 25 06:29 base_func.c
+-rw-r--r-- 1 root root   518 Aug 25 06:39 exec.c
+-rw-r--r-- 1 root root   723 Aug 25 06:40 _getline.c
+-rwxr-xr-x 1 root root 22656 Aug 25 07:23 hsh
+-rw-r--r-- 1 root root   820 Aug 25 07:17 main.c
+-rw-r--r-- 1 root root  1136 Aug 25 06:41 more_fun2.c
+-rw-r--r-- 1 root root   968 Aug 25 06:44 more_func.c
+-rw-r--r-- 1 root root  1048 Aug 25 06:47 path.c
+-rw-r--r-- 1 root root  2457 Aug 25 06:17 README.md
+-rw-r--r-- 1 root root   176 Aug 25 06:47 signal.c
+-rw-r--r-- 1 root root   936 Aug 25 07:16 simple_shell.h
+-rw-r--r-- 1 root root   722 Aug 25 06:47 split.c
+```
+
 ## Quick start :bicyclist:
 Git clone the repository.
 
