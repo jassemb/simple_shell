@@ -28,7 +28,7 @@ char *_strchr(char *s, char c)
 
 /**
  *_strlen - length of string
- *@s : string
+ *@s : a string
  *Return: len
  */
 int _strlen(char *s)
@@ -47,8 +47,8 @@ int _strlen(char *s)
 
 /**
  *_strcpy - copy a string
- *@dest: string
- *@src: string
+ *@dest: a string
+ *@src: a string
  *Return: copied string
 */
 char *_strcpy(char *dest, char *src)
@@ -66,8 +66,8 @@ char *_strcpy(char *dest, char *src)
 
 /**
  * _strcmp - compare two strings
- *@s1 : string
- *@s2 : string
+ *@s1 : a string
+ *@s2 : a string
  *Return: 0
  */
 int _strcmp(char *s1, char *s2)
