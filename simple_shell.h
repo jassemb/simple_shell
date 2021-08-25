@@ -11,7 +11,7 @@
 #include <sys/stat.h>
 #include <string.h>
 #include <signal.h>
-f
+
 extern char **environ;
 int _atoi(char *s);
 void _perror(int count);
