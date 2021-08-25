@@ -1,4 +1,5 @@
 #include "simple_shell.h"
+
 /**
  * _putchar - writes the character c
  * @c: The character to print
@@ -32,14 +33,15 @@ char *_strchr(char *s, char c)
  */
 int _strlen(char *s)
 {
-int i;
-int c = 0;
-if (s == NULL)
-	return (0);
-for (i = 0; s[i] != '\0'; i++)
-{
-	c++;
-}
+	int i;
+	int c = 0;
+
+	if (s == NULL)
+		return (0);
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		c++;
+	}
 	return (c);
 }
 
@@ -51,14 +53,15 @@ for (i = 0; s[i] != '\0'; i++)
 */
 char *_strcpy(char *dest, char *src)
 {
-int i;
-for (i = 0; src[i] != '\0'; i++)
-{
-dest[i] = src[i];
-}
-if (dest[i] != '\0')
-dest[i] = '\0';
-return (dest);
+	int i;
+
+	for (i = 0; src[i] != '\0'; i++)
+	{
+		dest[i] = src[i];
+	}
+	if (dest[i] != '\0')
+		dest[i] = '\0';
+	return (dest);
 }
 
 /**
@@ -69,11 +72,12 @@ return (dest);
  */
 int _strcmp(char *s1, char *s2)
 {
-int i;
-for (i = 0; s1[i] != '\0'; i++)
-{
-if (s1[i] != s2[i])
-break;
-}
-return (s1[i] - s2[i]);
+	int i;
+
+	for (i = 0; s1[i] != '\0'; i++)
+	{
+		if (s1[i] != s2[i])
+			break;
+	}
+	return (s1[i] - s2[i]);
 }
