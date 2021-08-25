@@ -30,7 +30,7 @@ int _putchar(char c);
 char **split(char *line, char *div);
 int _exec(char *cmd, char **array);
 char *path(char *cmd);
-void p_env(void);
+void print_env(void);
 char *_strcat(char *dest, char *src);
 char *_getenv(char *path);
 char *_itoa(int num, char *str);
