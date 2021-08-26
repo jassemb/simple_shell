@@ -127,6 +127,6 @@ int _atoi(char *s)
 		else
 			i++;
 	}
-	res = (sign(*num));
+	res = (sign * num);
 	return (res);
 }
